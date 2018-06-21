@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>彥霆的個人網頁</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body
+            {
+                background:#ffffff
+            }
+        a:link {color:#000000;}      
+        a:visited {color:rgb(250, 250, 250);}  
+        a:hover {color:rgb(65, 200, 241);}  
+        a:active {color:#0000FF;}
+
+        #example1 {
+            background-image: url(), url(https://media.gettyimages.com/vectors/abstract-geometric-background-design-vector-id491817060?b=1&k=6&m=491817060&s=612x612&w=0&h=9P3a-YYhLZAv-I188BK_ZXxeJ9eEg_AJgmZOG-wHFcE=);
+            background-position: right bottom, left top;
+            background-repeat: no-repeat, repeat;
+            background-size: 1600px 500px;
+            padding: 15px;
+        }
+        tr {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 60px;
+        }
+        p.double {
+            border-style: double;
+            font-size: 60px;
+        }
+
+        div.img {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+            div.img:hover {
+                border: 1px solid #777;
+            }
+
+            div.img img {
+                width: 100%;
+                height: auto;
+            }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul class="nav nav-tabs">
+        <li class="active">
+            <a href="#home" data-toggle="tab">首頁</a>
+        </li>
+        <li>
+            <a href="#info" data-toggle="tab">個人資料</a>
+        </li>
+        <li>
+            <a href="#SB" data-toggle="tab">自傳</a>
+        </li>
+        <li>
+            <a href="#special" data-toggle="tab">影視</a>
+        </li>
+    </ul>   
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="home">
+            <center>
+            <h1><img src="http://i0.kym-cdn.com/entries/icons/original/000/012/812/Catbug_by_sircinnamon-d5riz9k.png" width="300" height="333"></h1><br></br>
+            <h1>歡迎來到彥霆的網站</h1>
+            </center>    
+            <a class="btn btn-info btn-lg" href="https://www.facebook.com/profile.php?id=100000339722510" target="_blank"  role="button">Facebook</a>
+            <a class="btn btn-warning btn-lg" href="https://www.instagram.com/lee_yang_tim/" target="_blank"  role="button">Instagram</a>            
+        </div>
+        <div class="tab-pane fade" id="info">
+            <div id="example1">
+                <table class="table table-sriped">
+                    <tr>
+                        <th>生日</th>
+                        <td>1999/02/23</td>
+                    </tr>
+                    <tr>
+                        <th>生肖</th>
+                        <td>兔</td>
+                    </tr>
+                    <tr>
+                        <th>星座</th>
+                        <td>雙魚座</td>
+                    </tr>
+                    <tr>
+                        <th>性別</th>
+                        <td>男性</td>
+                    </tr>
+                    <tr>
+                        <th>專長</th>
+                        <td>排球</td>
+                    </tr>
+                    <tr>
+                        <th>興趣</th>
+                        <td>排球,唱歌</td>
+                    </tr>
+                    <tr>
+                        <th>喜歡吃的東西</th>
+                        <td>薯條</td>
+                    </tr>
+                    <tr>
+                        <th>喜歡的歌曲類型</th>
+                        <td>Disney , 日文  , 英文</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="tab-pane fade" id="SB">
+            <center>
+                <h1>自我介紹</h1>
+                <h2>金門大學資工系大一生,過著每天全力以赴的日子 </h2>
+                <h3></h3>
+
+            </center>    
+        </div> 
+        
+        <div class="tab-pane fade" id="special">
+            <p class="double">Gravity Falls 重力瀑布</p>
+
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="https://vignette.wikia.nocookie.net/gravityfalls/images/5/54/Gravity_Falls_Vol_1_Digital_Download.jpg/revision/latest?cb=20141024215851">
+                        <img src="https://vignette.wikia.nocookie.net/gravityfalls/images/5/54/Gravity_Falls_Vol_1_Digital_Download.jpg/revision/latest?cb=20141024215851" alt="图片文本描述" width="300" height="200">
+                    </a>
+                    <div class="desc">Gravity Falls</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="https://vignette.wikia.nocookie.net/gravityfalls/images/0/08/Opening_Main_characters_of_Gravity_Falls.png/revision/20131205211452">
+                        <img src="https://vignette.wikia.nocookie.net/gravityfalls/images/0/08/Opening_Main_characters_of_Gravity_Falls.png/revision/20131205211452" alt="图片文本描述" width="300" height="200">
+                    </a>
+                    <div class="desc">角色群</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="https://vignette.wikia.nocookie.net/psycho/images/2/2f/Mabel_pines_gravity_falls_in_vector_by_100latino-d5k9htw.png/revision/latest?cb=20160703131601">
+                        <img src="https://vignette.wikia.nocookie.net/psycho/images/2/2f/Mabel_pines_gravity_falls_in_vector_by_100latino-d5k9htw.png/revision/latest?cb=20160703131601" alt="图片文本描述" width="300" height="200">
+                    </a>
+                    <div class="desc">女主角 Mabel</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="http://3.bp.blogspot.com/-7CL31nGbV_Y/U3m1akugmQI/AAAAAAAAf8E/-xczGxLbG9s/s1600/dipper.png">
+                        <img src="http://3.bp.blogspot.com/-7CL31nGbV_Y/U3m1akugmQI/AAAAAAAAf8E/-xczGxLbG9s/s1600/dipper.png" alt="图片文本描述" width="300" height="200">
+                    </a>
+                    <div class="desc">男主角 Dipper</div>
+                </div>
+            </div>
+            <h3>雖然這些是主要角色，但是本齣戲最有趣的便是，看似是個不起眼的小角色，卻藏有重要的秘密。</h3>
+            <h3></h3>
+            <h3></h3>
+            <h3></h3>
+            <h3></h3>
+            <h3></h3>
+            <h3>來聽聽他的主題曲吧!</h3>
+            <a role="button" href="https://www.youtube.com/watch?v=X2DUpDxFJyg" target="_blank"  class="btn btn-danger">youtube</a>
+            <h3>這是我追劇用的網站</h3>
+            <a role="button" href="https://forgettingfish.blogspot.com/2016/06/gravity-falls-s01e01-tourist-trapped.html" target="_blank"  class="btn btn-success">健忘魚</a>
+        </div>
+    </div>    
+
+       
+        
+
+          
+</body>
+</html>
